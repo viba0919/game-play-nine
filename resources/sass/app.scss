@@ -1,0 +1,53 @@
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: #f3f3f3;
+}
+
+.fa-star {
+    font-size: 24px;
+        margin: 0.5em;
+}
+
+span {
+    display: inline-block;
+    border-radius: 50%;
+        width: 24px;
+        background-color: #ccc;
+        text-align: center;
+        margin: 0.5em;
+        user-select: none;
+    cursor: pointer;
+}
+
+.selected {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.used {
+    background-color: red;
+        opacity: 0.3;
+        color: #fff;
+        cursor: not-allowed;
+}
+
+.btn {
+    cursor: pointer;
+        outline: none;
+        box-shadow: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.numbers {
+    border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 0.1em;
+}
